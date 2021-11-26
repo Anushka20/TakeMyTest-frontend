@@ -1,4 +1,4 @@
-const MODE = "dev";
+const MODE = "prod";
 const BACKEND_URL =
   MODE == "prod"
     ? "https://takemytest-backend.herokuapp.com"
