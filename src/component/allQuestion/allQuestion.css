@@ -1,0 +1,40 @@
+.all-question {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.reviewed {
+  background-color: rgb(246, 247, 210);
+}
+
+.reviewed:hover {
+  background-color: rgb(238, 241, 145);
+}
+
+.saved {
+  background-color: rgb(209, 245, 209);
+}
+
+.saved:hover {
+  background-color: rgb(150, 248, 150);
+}
+
+.single-question {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin: 10px;
+  border: 1px solid grey;
+  color: #000;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+.not-review-save:hover {
+  background-color: rgb(113, 182, 243);
+}
+
+.not-review-save {
+  background-color: rgb(183, 214, 241);
+}

@@ -56,8 +56,4 @@ async function handleRegister(userData) {
   return res;
 }
 
-module.exports = {
-  getToken: getToken,
-  handleLogin: handleLogin,
-  handleRegister: handleRegister,
-};
+export { getToken, handleLogin, handleRegister };

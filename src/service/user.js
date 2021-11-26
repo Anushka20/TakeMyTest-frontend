@@ -37,6 +37,4 @@ async function fetchUserData() {
   return res;
 }
 
-module.exports = {
-  fetchUserData: fetchUserData,
-};
+export { fetchUserData };

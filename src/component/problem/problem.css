@@ -1,0 +1,27 @@
+.problem {
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Segoe UI";
+  font-weight: 300;
+}
+
+.problem-statement {
+  text-align: start;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}

@@ -46,7 +46,9 @@ export default class Header extends React.Component {
           successMsg: res.message,
           errorMsg: "",
         },
-        () => this.props.fetchUserData()
+        () => {
+          this.props.fetchUserData();
+        }
       );
     } else {
       localStorage.removeItem("takeMyTestAccessToken");
@@ -188,6 +190,16 @@ export default class Header extends React.Component {
                   class="btn-close"
                   data-bs-dismiss="modal"
                   aria-label="Close"
+                  onClick={() =>
+                    this.setState({
+                      isError: false,
+                      isSuccess: false,
+                      errorMsg: "",
+                      successMsg: "",
+                      loginEmail: "",
+                      loginPassword: "",
+                    })
+                  }
                 ></button>
               </div>
               <div class="modal-body">
@@ -262,6 +274,18 @@ export default class Header extends React.Component {
                   class="btn-close"
                   data-bs-dismiss="modal"
                   aria-label="Close"
+                  onClick={() =>
+                    this.setState({
+                      isError: false,
+                      isSuccess: false,
+                      errorMsg: "",
+                      successMsg: "",
+                      registerEmail: "",
+                      registerPassword: "",
+                      registerName: "",
+                      registerProfession: "",
+                    })
+                  }
                 ></button>
               </div>
               <div class="modal-body">

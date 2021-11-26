@@ -114,11 +114,11 @@ async function submitTest(testId, answers) {
   return res;
 }
 
-module.exports = {
-  createClassRoom: createClassRoom,
-  joinClassRoom: joinClassRoom,
-  createTest: createTest,
-  fetchAllTestInClassroom: fetchAllTestInClassroom,
-  fetchTest: fetchTest,
-  submitTest: submitTest,
+export {
+  createClassRoom,
+  joinClassRoom,
+  createTest,
+  fetchAllTestInClassroom,
+  fetchTest,
+  submitTest,
 };

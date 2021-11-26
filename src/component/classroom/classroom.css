@@ -1,0 +1,80 @@
+.student-classroom-container {
+  width: 100%;
+  height: 100%;
+}
+
+.teacher-classroom-container {
+  width: 100%;
+  height: 100%;
+}
+
+.classrooms {
+  padding: 0px 30px;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.single-classroom {
+  height: 200px;
+  width: 200px;
+  text-align: left;
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  transition: all 0.5s;
+  font-size: 16px;
+}
+
+.single-classroom h4 {
+  font-family: "Segoe UI";
+  font-weight: 400;
+  text-align: center;
+}
+
+.enter-classroom-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.theme-green {
+  box-shadow: 3px 3px 10px green;
+}
+
+.theme-green:hover {
+  box-shadow: 8px 8px 15px green;
+}
+
+.theme-orange {
+  box-shadow: 3px 3px 10px orange;
+}
+
+.theme-orange:hover {
+  box-shadow: 8px 8px 15px orange;
+}
+
+.theme-blue {
+  box-shadow: 3px 3px 10px blue;
+}
+
+.theme-blue:hover {
+  box-shadow: 8px 8px 15px blue;
+}
+
+.theme-red {
+  box-shadow: 3px 3px 10px red;
+}
+
+.theme-red:hover {
+  box-shadow: 8px 8px 15px red;
+}
+
+.student-name-container {
+  text-align: left;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Segoe UI";
+}

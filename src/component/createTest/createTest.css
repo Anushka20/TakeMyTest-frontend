@@ -1,0 +1,55 @@
+.new-test-container {
+  width: 100%;
+  height: auto;
+  padding: 10px 20%;
+  overflow-y: auto;
+  max-height: 90vh;
+  background-color: aliceblue;
+  margin: 20px 0px;
+}
+
+.question-container {
+}
+
+.question-statement-container {
+  text-align: start;
+  font-family: "Segoe UI";
+  font-weight: 400;
+}
+
+.form-check div div {
+  background-color: #fff;
+}
+
+.question-options-container {
+  text-align: start;
+  font-family: "Segoe UI";
+  font-weight: 300;
+}
+.question-answer-container {
+  text-align: start;
+}
+
+.question-answer-container .form-label {
+  margin-right: 40px;
+}
+
+.question-answer-container .form-check {
+  margin-right: 50px;
+}
+
+.create-test-action-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.test-duration-start-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.test-duration-start-date .form-check-inline {
+  padding: 0px;
+  margin: 0px;
+}
