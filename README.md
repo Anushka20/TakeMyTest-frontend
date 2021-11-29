@@ -10,5 +10,5 @@ Backend- Nodejs,Express
 Database- Mongodb
 Tool- VS Code
 
-Backend :-https://github.com/Anushka20/TakeMyTest-backend/new/master?readme=1
+Backend :-https://github.com/Anushka20/TakeMyTest-backend
 Deployed Link-https://takemytest.netlify.app/
